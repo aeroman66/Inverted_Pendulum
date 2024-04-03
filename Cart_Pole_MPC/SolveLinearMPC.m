@@ -2,7 +2,7 @@ function control = SolveLinearMPC(A_k, B_k, C_k, q, r, lower, upper, x0, refs, N
 
     % 预测步长是N_p
     % 设状态量个数是Xn
-    Xn = length(x0);
+    % Xn = length(x0);
     % refs是N_p个参考状态组合成的参考状态合集
     % refs的维度是[N_p*Xn, 1]
    
